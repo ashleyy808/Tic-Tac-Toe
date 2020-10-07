@@ -52,15 +52,15 @@ main section:nth-child(2) {
 
 #gameboard {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     width: 600px;
 }
 
 
 .top { border-top: 3px solid gray;}
-.bottom { border-bottom: 3px solid black;}
-.right { border-right: 3px solid black;}
-.left { border-left: 3px solid black;}
+.bottom { border-bottom: 3px solid gray;}
+.right { border-right: 3px solid gray;}
+.left { border-left: 3px solid gray;}
 
 
 .square { 
@@ -74,5 +74,5 @@ main section:nth-child(2) {
 }
 
 .square:hover {
-    background-color: #FFB6C1;
+    background-color: #FFC0CB;
 }
